@@ -1,5 +1,4 @@
 <div>Micro app B works !!!</div>
-<br>
 
-<h3> Welcome {{profile.firstName}} {{profile.lastName}} !!!</h3>
+<h3 *ngIf="profile"> Welcome {{profile?.firstName}} {{profile?.lastName}} !!!</h3>
 
