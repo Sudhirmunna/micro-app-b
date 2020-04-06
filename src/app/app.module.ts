@@ -4,9 +4,11 @@ import { createCustomElement } from '@angular/elements';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LinkOneComponent } from './link-one/link-one.component';
+import { LinkTwoComponent } from './link-two/link-two.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, LinkOneComponent, LinkTwoComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [],

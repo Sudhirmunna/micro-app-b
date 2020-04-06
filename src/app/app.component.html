@@ -1,4 +1,6 @@
 <div>Micro app B works !!!</div>
-
+<a href="" [routerLink]="'dashboard/link1'" routerLinkActive="true"> Link1</a>
+<a href="" [routerLink]="'dashboard/link2'"> Link2</a>
+<router-outlet></router-outlet>
 <h3 *ngIf="profile"> Welcome {{profile?.firstName}} {{profile?.lastName}} !!!</h3>
 
