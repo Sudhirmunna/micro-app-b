@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 
 
 const routes: Routes = [
+  { path: '', component: LinkOneComponent },
   { path: 'dashboard/link1', component: LinkOneComponent },
-  { path: 'dashboard/link2', component: LinkTwoComponent }
+  { path: 'dashboard/link2', component: LinkTwoComponent },
 ];
 
 @NgModule({
